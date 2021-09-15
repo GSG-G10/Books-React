@@ -2,12 +2,13 @@
 .book-cell {
     position: relative;
     display: flex;
-    padding: 20px 25px;
+    padding: 33px 34px 0px 34px;
     height: 263px;
-    margin-right: 1px;
-    background-color: #a4e0eb;
-    box-shadow: 10px 10px 30px #01333b;
+    margin: 39px 0px;
+    border:5px solid rgb(250, 173, 7);
+    box-shadow: 7px 21px 20px rgba(70, 69, 69, 0.575);
     border-radius: 9px;
+    
    }
    @media (max-width: 575px) {
     .book-cell {
@@ -17,7 +18,7 @@
    
    .book-photo {
     width: 180px;
-    border-radius: 2px;
+    border-radius: 5px;
     box-shadow: -2px 6px 19px 0px #7f818e;
     transition: .3s ease;
 }
@@ -26,7 +27,7 @@
 }
 
    .book-img {
-    width: 250%;
+    width: 100%;
    }
    
    .book-title {
@@ -36,7 +37,7 @@
    }
    
    .book-title {
-    color: #ffffff;
+    color: #000000;
     font-weight: 600;
    }
    
@@ -49,9 +50,11 @@
    }
    
    .book-content {
-    padding: 0 20px;
-    color: #ffffff;
+    /* padding: 0 5px; */
+    color: #000000;
     overflow: hidden;
+    width: 350px;
+    margin-left: 15px;
    }
    .rating {
     border: none;
@@ -106,12 +109,12 @@
    }
    
    .book-see {
-    margin-top: 25px;
+    margin-top: 50px;
     text-align: center;
-    background-color: #fff;
-    color: #22cdec;
+    background-color: rgb(250, 173, 7);
+    color: #ffffff;
     font-weight: 600;
-    padding: 8px;
+    padding: 8px;    
     font-size: 14px;
     width: 160px;
     border-radius: 20px;
@@ -122,9 +125,7 @@
    .book-see:hover{
     font-size: 17px;
     width: 170px;
-    background-color:#14cff0b9 ;
-    color: #fff;
-    box-shadow: 5px 5px 10px #01333b;
+    box-shadow: 5px 5px 10px #d69d01;
 
    }
    /* ==============  css card ===============  */
@@ -132,11 +133,15 @@
        display: flex;
     flex-flow: wrap;
     justify-content: space-around;
+    margin: 0px 70px;
    }
    .book-card{
     display: flex;
     width: 30%;
-    margin-bottom: 2rem;
+    margin: auto;
+   }
+   .book-price{
+       margin-bottom: 33px;
    }
     
    

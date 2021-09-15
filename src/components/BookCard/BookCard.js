@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "./style.css";
 
+
 export default class BookCard extends Component {
   
   render() {
-    const {details: {book_image,title,author,price,description,buy_links:[{url}]},key} = this.props;
+    const {details: {book_image,title,author,price,description,buy_links:[{url}]},id} = this.props;
     return (
-      <div className="book-card" id={key}>
+      <div className="book-card" id={id}>
         <div className="book-cell">
           <div className="book-img">
             <img
@@ -25,7 +26,7 @@ export default class BookCard extends Component {
               <span className="price-label">Price:</span>
               <span className="price-value">{price}</span>
             </div>
-            <a className="book-see" href={url}>Buy The Book</a>
+            <a className="book-see" href={url} target="blank">Buy The Book</a>
           </div>
         </div>
       </div>

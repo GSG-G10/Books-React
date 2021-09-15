@@ -32,7 +32,6 @@ export default class BookCard extends Component {
                 <label class="full" for="star1"></label>
                 <span class="book-voters">1.987 voters</span>
               </fieldset>
-              
             </div>
             <div class="book-sum">
               Readers of all ages and walks of life have drawn inspiration and

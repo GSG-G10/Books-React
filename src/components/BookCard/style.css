@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+* {
+    outline: none;
+    box-sizing: border-box;
+   }
+   html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+   }
+   img {
+    max-width: 100%;
+   }
+   :root {
+    --body-bg-color: #e5f4f9;
+    --body-color-light: #8b939c;
+    --body-font: "Roboto", sans-serif;
+    --page-bg-color: #f2f5f7;
+    --body-color: #3d4954;
+    --border-color: #b8bec3;
+    --placeholder: #ccd0d2;
+   }
+
+   .book-cell {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    width: 30%;
+    height: 263px;
+    margin-right: 1px;
+    background-color: #a4e0eb;
+    box-shadow: 10px 10px 30px #01333b;
+    border-radius: 9px;
+   
+    
+   }
+   @media (max-width: 575px) {
+    .book-cell {
+     width: 100%;
+    }
+   }
+   
+   .book-photo {
+    width: 180px;
+    flex-shrink: 0;
+    bottom: -35px;
+    left: 35px;
+    border-radius: 2px;
+    box-shadow: -2px 6px 19px 0px #7f818e;
+    transition: .3s ease;
+}
+.book-photo:hover {
+ transform: scale(1.03);
+}
+
+   .book-img {
+    flex-shrink: 0;
+   }
+   
+   .book-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+   }
+   
+   .book-title {
+    color: #ffffff;
+    font-weight: 600;
+   }
+   
+   .book-author {
+    margin-top: 3px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+   }
+   
+   .book-content {
+    padding: 0 20px;
+    color: #ffffff;
+    overflow: hidden;
+   }
+   .rating {
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   }
+   
+   .rating > input {
+    display: none;
+   }
+   .rating > label:before {
+    margin-right: 5px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+   }
+   
+   .rating > label {
+    color: #fff;
+   }
+   
+   .rating > input:checked ~ label,
+   .rating:not(:checked) > label:hover,
+   .rating:not(:checked) > label:hover ~ label {
+    color: #d85d61;
+   }
+   .rating > input:checked + label:hover,
+   .rating > input:checked ~ label:hover,
+   .rating > label:hover ~ input:checked ~ label,
+   .rating > input:checked ~ label:hover ~ label {
+    color: #d85d61;
+   }
+   .book-voters {
+    color: #fff;
+    vertical-align: sub;
+    font-size: 13px;
+    margin-left: 7px;
+   
+    margin-top: 12px;
+   }
+   
+   .book-sum {
+    margin-top: 20px;
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+   }
+   
+   .book-see {
+    margin-top: 25px;
+    text-align: center;
+    background-color: #fff;
+    color: #22cdec;
+    font-weight: 600;
+    padding: 8px;
+    font-size: 14px;
+    width: 160px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    
+   }
+   .book-see:hover{
+    font-size: 17px;
+    width: 170px;
+    background-color:#14cff0b9 ;
+    color: #fff;
+    box-shadow: 5px 5px 10px #01333b;
+
+   }
+    
+   

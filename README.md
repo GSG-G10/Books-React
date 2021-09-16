@@ -1,6 +1,6 @@
 # BOOK REACT :books: 
  
-#### Live link : focused-aryabhata-10b642.netlify.app
+#### Live link : https://focused-aryabhata-10b642.netlify.app/
 
 Book Store website to search for your book or author and buy it .
 

@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# BOOK REACT :books: 
+ 
+#### Live link :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Book Store website to search for your book or author and buy it .
 
-## Available Scripts
+## Team members :heart: 
+ * Elham Fadel.
+ * Nadia Tamimi.
 
-In the project directory, you can run:
+ ## Project Description :page_facing_up: 
+ 
+ Book Store provides information about books the user enters in the search-bar. The book information the user receives are the book name or title , book author , description of the book , the price of the book , button for buy and an image so you know how the book look like.
+ 
 
-### `npm start`
+## User Stories: :closed_book: 
+User is able to search the book he want .
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ * I want to be able to search about the book I want.
+ * I want to be able to see all the detailes of the book like who write the book ,the name of the book ,price , were can i buy it , and an image to know how the book look like .
+ * i want to be able to add buy it when i click on the buy button.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## User Journey :world_map: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In our journey you will find a page with all what you need to search for the book that you want , is only one page and it is very simple to use , first of all i will descripe for you our page and then i will tell you how to search and buy a book , so let's start...
 
-### `npm run build`
+First of all you will find a page with a nice header that contain the logo of our app the name of our app and the search bar to search about the book you want , under the header you will find all the book you want with information obout all the book like the name of the book , the author , the description of the book , the price , a button and surely an image of the book .
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The second tap of our journy will be for how to search about a book , and it is quite simple you need just to know the name of the book or author or just remamber a letter so we can help you find it , so you have to go to the search bar and start to tipe while you are tiping the book with the same input will apear and if there is no book matches the page will tell you there is no book matches the input you input , but that fine you can delete and write another time so don't be sad :D .
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Our last tap will be how to buy a book , it is simple after you write the name of the book and you find it you will see a lovely button with buy the book write on it you have just to click on it to buy it and have the book you want ,i hope you like you journy .
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ENJOY YOUR READING :hearts: 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running the project locally: :inbox_tray: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- git clone https://github.com/GSG-G10/Books-React.git
+- cd Book React
+- npm i
+- npm start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Tech Stack: :page_with_curl: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- HTML
+- CSS
+- JavaScript
+- API
+- React
